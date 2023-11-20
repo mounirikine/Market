@@ -1,0 +1,28 @@
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    list-style: none;
+    padding-inline-end: 90px;
+    transition: opacity 1s; /* Add a 1-second transition for opacity */
+    margin: 0;
+    color: #000;
+    background-color: #fff; /* You can customize the background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for styling */
+  }
+  
+  .dropdown-menu li {
+    padding: 8px;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1; /* Set opacity to 1 on hover */
+  }
+  .hero{
+    background-image: url('../assets/images/slider0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+  }
+  
